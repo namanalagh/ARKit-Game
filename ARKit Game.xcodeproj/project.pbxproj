@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9867B932A33A19C00ECEA96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867B922A33A19C00ECEA96 /* AppDelegate.swift */; };
+		C9867B952A33A19C00ECEA96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867B942A33A19C00ECEA96 /* ViewController.swift */; };
+		C9867B972A33A19C00ECEA96 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C9867B962A33A19C00ECEA96 /* Experience.rcproject */; };
+		C9867B9A2A33A19C00ECEA96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9867B982A33A19C00ECEA96 /* Main.storyboard */; };
+		C9867B9C2A33A19D00ECEA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9867B9B2A33A19D00ECEA96 /* Assets.xcassets */; };
+		C9867B9F2A33A19D00ECEA96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9867B9D2A33A19D00ECEA96 /* LaunchScreen.storyboard */; };
+		C9867BA92A33A19D00ECEA96 /* ARKit_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BA82A33A19D00ECEA96 /* ARKit_GameTests.swift */; };
+		C9867BB32A33A19D00ECEA96 /* ARKit_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BB22A33A19D00ECEA96 /* ARKit_GameUITests.swift */; };
+		C9867BB52A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BB42A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9867BA52A33A19D00ECEA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9867B872A33A19C00ECEA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9867B8E2A33A19C00ECEA96;
+			remoteInfo = "ARKit Game";
+		};
+		C9867BAF2A33A19D00ECEA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9867B872A33A19C00ECEA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9867B8E2A33A19C00ECEA96;
+			remoteInfo = "ARKit Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9867B8F2A33A19C00ECEA96 /* ARKit Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9867B922A33A19C00ECEA96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9867B942A33A19C00ECEA96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9867B962A33A19C00ECEA96 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		C9867B992A33A19C00ECEA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9867B9B2A33A19D00ECEA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9867B9E2A33A19D00ECEA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9867BA42A33A19D00ECEA96 /* ARKit GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9867BA82A33A19D00ECEA96 /* ARKit_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_GameTests.swift; sourceTree = "<group>"; };
+		C9867BAE2A33A19D00ECEA96 /* ARKit GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9867BB22A33A19D00ECEA96 /* ARKit_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_GameUITests.swift; sourceTree = "<group>"; };
+		C9867BB42A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9867B8C2A33A19C00ECEA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9867BA12A33A19D00ECEA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9867BAB2A33A19D00ECEA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9867B862A33A19C00ECEA96 = {
+			isa = PBXGroup;
+			children = (
+				C9867B912A33A19C00ECEA96 /* ARKit Game */,
+				C9867BA72A33A19D00ECEA96 /* ARKit GameTests */,
+				C9867BB12A33A19D00ECEA96 /* ARKit GameUITests */,
+				C9867B902A33A19C00ECEA96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9867B902A33A19C00ECEA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9867B8F2A33A19C00ECEA96 /* ARKit Game.app */,
+				C9867BA42A33A19D00ECEA96 /* ARKit GameTests.xctest */,
+				C9867BAE2A33A19D00ECEA96 /* ARKit GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9867B912A33A19C00ECEA96 /* ARKit Game */ = {
+			isa = PBXGroup;
+			children = (
+				C9867B922A33A19C00ECEA96 /* AppDelegate.swift */,
+				C9867B942A33A19C00ECEA96 /* ViewController.swift */,
+				C9867B962A33A19C00ECEA96 /* Experience.rcproject */,
+				C9867B982A33A19C00ECEA96 /* Main.storyboard */,
+				C9867B9B2A33A19D00ECEA96 /* Assets.xcassets */,
+				C9867B9D2A33A19D00ECEA96 /* LaunchScreen.storyboard */,
+			);
+			path = "ARKit Game";
+			sourceTree = "<group>";
+		};
+		C9867BA72A33A19D00ECEA96 /* ARKit GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9867BA82A33A19D00ECEA96 /* ARKit_GameTests.swift */,
+			);
+			path = "ARKit GameTests";
+			sourceTree = "<group>";
+		};
+		C9867BB12A33A19D00ECEA96 /* ARKit GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9867BB22A33A19D00ECEA96 /* ARKit_GameUITests.swift */,
+				C9867BB42A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift */,
+			);
+			path = "ARKit GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9867B8E2A33A19C00ECEA96 /* ARKit Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9867BB82A33A19D00ECEA96 /* Build configuration list for PBXNativeTarget "ARKit Game" */;
+			buildPhases = (
+				C9867B8B2A33A19C00ECEA96 /* Sources */,
+				C9867B8C2A33A19C00ECEA96 /* Frameworks */,
+				C9867B8D2A33A19C00ECEA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit Game";
+			productName = "ARKit Game";
+			productReference = C9867B8F2A33A19C00ECEA96 /* ARKit Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9867BA32A33A19D00ECEA96 /* ARKit GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9867BBB2A33A19D00ECEA96 /* Build configuration list for PBXNativeTarget "ARKit GameTests" */;
+			buildPhases = (
+				C9867BA02A33A19D00ECEA96 /* Sources */,
+				C9867BA12A33A19D00ECEA96 /* Frameworks */,
+				C9867BA22A33A19D00ECEA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9867BA62A33A19D00ECEA96 /* PBXTargetDependency */,
+			);
+			name = "ARKit GameTests";
+			productName = "ARKit GameTests";
+			productReference = C9867BA42A33A19D00ECEA96 /* ARKit GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9867BAD2A33A19D00ECEA96 /* ARKit GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9867BBE2A33A19D00ECEA96 /* Build configuration list for PBXNativeTarget "ARKit GameUITests" */;
+			buildPhases = (
+				C9867BAA2A33A19D00ECEA96 /* Sources */,
+				C9867BAB2A33A19D00ECEA96 /* Frameworks */,
+				C9867BAC2A33A19D00ECEA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9867BB02A33A19D00ECEA96 /* PBXTargetDependency */,
+			);
+			name = "ARKit GameUITests";
+			productName = "ARKit GameUITests";
+			productReference = C9867BAE2A33A19D00ECEA96 /* ARKit GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9867B872A33A19C00ECEA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C9867B8E2A33A19C00ECEA96 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C9867BA32A33A19D00ECEA96 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C9867B8E2A33A19C00ECEA96;
+					};
+					C9867BAD2A33A19D00ECEA96 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C9867B8E2A33A19C00ECEA96;
+					};
+				};
+			};
+			buildConfigurationList = C9867B8A2A33A19C00ECEA96 /* Build configuration list for PBXProject "ARKit Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9867B862A33A19C00ECEA96;
+			productRefGroup = C9867B902A33A19C00ECEA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9867B8E2A33A19C00ECEA96 /* ARKit Game */,
+				C9867BA32A33A19D00ECEA96 /* ARKit GameTests */,
+				C9867BAD2A33A19D00ECEA96 /* ARKit GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9867B8D2A33A19C00ECEA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9867B9F2A33A19D00ECEA96 /* LaunchScreen.storyboard in Resources */,
+				C9867B9C2A33A19D00ECEA96 /* Assets.xcassets in Resources */,
+				C9867B9A2A33A19C00ECEA96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9867BA22A33A19D00ECEA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9867BAC2A33A19D00ECEA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9867B8B2A33A19C00ECEA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9867B952A33A19C00ECEA96 /* ViewController.swift in Sources */,
+				C9867B932A33A19C00ECEA96 /* AppDelegate.swift in Sources */,
+				C9867B972A33A19C00ECEA96 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9867BA02A33A19D00ECEA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9867BA92A33A19D00ECEA96 /* ARKit_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9867BAA2A33A19D00ECEA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9867BB52A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift in Sources */,
+				C9867BB32A33A19D00ECEA96 /* ARKit_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9867BA62A33A19D00ECEA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9867B8E2A33A19C00ECEA96 /* ARKit Game */;
+			targetProxy = C9867BA52A33A19D00ECEA96 /* PBXContainerItemProxy */;
+		};
+		C9867BB02A33A19D00ECEA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9867B8E2A33A19C00ECEA96 /* ARKit Game */;
+			targetProxy = C9867BAF2A33A19D00ECEA96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9867B982A33A19C00ECEA96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9867B992A33A19C00ECEA96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9867B9D2A33A19D00ECEA96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9867B9E2A33A19D00ECEA96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9867BB62A33A19D00ECEA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9867BB72A33A19D00ECEA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9867BB92A33A19D00ECEA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB42H87VWR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.ARKit-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9867BBA2A33A19D00ECEA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB42H87VWR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.ARKit-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9867BBC2A33A19D00ECEA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB42H87VWR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.ARKit-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARKit Game";
+			};
+			name = Debug;
+		};
+		C9867BBD2A33A19D00ECEA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB42H87VWR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.ARKit-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARKit Game";
+			};
+			name = Release;
+		};
+		C9867BBF2A33A19D00ECEA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB42H87VWR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.ARKit-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit Game";
+			};
+			name = Debug;
+		};
+		C9867BC02A33A19D00ECEA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AB42H87VWR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.supernova.ARKit-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9867B8A2A33A19C00ECEA96 /* Build configuration list for PBXProject "ARKit Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9867BB62A33A19D00ECEA96 /* Debug */,
+				C9867BB72A33A19D00ECEA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9867BB82A33A19D00ECEA96 /* Build configuration list for PBXNativeTarget "ARKit Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9867BB92A33A19D00ECEA96 /* Debug */,
+				C9867BBA2A33A19D00ECEA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9867BBB2A33A19D00ECEA96 /* Build configuration list for PBXNativeTarget "ARKit GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9867BBC2A33A19D00ECEA96 /* Debug */,
+				C9867BBD2A33A19D00ECEA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9867BBE2A33A19D00ECEA96 /* Build configuration list for PBXNativeTarget "ARKit GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9867BBF2A33A19D00ECEA96 /* Debug */,
+				C9867BC02A33A19D00ECEA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9867B872A33A19C00ECEA96 /* Project object */;
+}
