@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C940F50A2A379B3700FA16B4 /* rocket.dae in Resources */ = {isa = PBXBuildFile; fileRef = C940F5092A379B3700FA16B4 /* rocket.dae */; };
+		C940F50C2A379B7700FA16B4 /* Toy Rocket_Toy Ship_BaseColor-min.png in Resources */ = {isa = PBXBuildFile; fileRef = C940F50B2A379B7700FA16B4 /* Toy Rocket_Toy Ship_BaseColor-min.png */; };
 		C9867B932A33A19C00ECEA96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867B922A33A19C00ECEA96 /* AppDelegate.swift */; };
 		C9867B952A33A19C00ECEA96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867B942A33A19C00ECEA96 /* ViewController.swift */; };
 		C9867B972A33A19C00ECEA96 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C9867B962A33A19C00ECEA96 /* Experience.rcproject */; };
@@ -16,6 +18,8 @@
 		C9867BA92A33A19D00ECEA96 /* ARKit_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BA82A33A19D00ECEA96 /* ARKit_GameTests.swift */; };
 		C9867BB32A33A19D00ECEA96 /* ARKit_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BB22A33A19D00ECEA96 /* ARKit_GameUITests.swift */; };
 		C9867BB52A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BB42A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift */; };
+		C9867BC22A375A4100ECEA96 /* ARGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BC12A375A4100ECEA96 /* ARGame.swift */; };
+		C9867BC42A375B8E00ECEA96 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9867BC32A375B8E00ECEA96 /* ARViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C940F5092A379B3700FA16B4 /* rocket.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = rocket.dae; path = ../../Downloads/rocket.dae; sourceTree = "<group>"; };
+		C940F50B2A379B7700FA16B4 /* Toy Rocket_Toy Ship_BaseColor-min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Toy Rocket_Toy Ship_BaseColor-min.png"; path = "../../Downloads/Toy Rocket_Toy Ship_BaseColor-min.png"; sourceTree = "<group>"; };
 		C9867B8F2A33A19C00ECEA96 /* ARKit Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9867B922A33A19C00ECEA96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9867B942A33A19C00ECEA96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +54,8 @@
 		C9867BAE2A33A19D00ECEA96 /* ARKit GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9867BB22A33A19D00ECEA96 /* ARKit_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_GameUITests.swift; sourceTree = "<group>"; };
 		C9867BB42A33A19D00ECEA96 /* ARKit_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9867BC12A375A4100ECEA96 /* ARGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGame.swift; sourceTree = "<group>"; };
+		C9867BC32A375B8E00ECEA96 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 		C9867B862A33A19C00ECEA96 = {
 			isa = PBXGroup;
 			children = (
+				C940F5092A379B3700FA16B4 /* rocket.dae */,
+				C940F50B2A379B7700FA16B4 /* Toy Rocket_Toy Ship_BaseColor-min.png */,
+				C9867BC32A375B8E00ECEA96 /* ARViewController.swift */,
+				C9867BC12A375A4100ECEA96 /* ARGame.swift */,
 				C9867B912A33A19C00ECEA96 /* ARKit Game */,
 				C9867BA72A33A19D00ECEA96 /* ARKit GameTests */,
 				C9867BB12A33A19D00ECEA96 /* ARKit GameUITests */,
@@ -231,7 +243,9 @@
 			files = (
 				C9867B9F2A33A19D00ECEA96 /* LaunchScreen.storyboard in Resources */,
 				C9867B9C2A33A19D00ECEA96 /* Assets.xcassets in Resources */,
+				C940F50A2A379B3700FA16B4 /* rocket.dae in Resources */,
 				C9867B9A2A33A19C00ECEA96 /* Main.storyboard in Resources */,
+				C940F50C2A379B7700FA16B4 /* Toy Rocket_Toy Ship_BaseColor-min.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9867BC22A375A4100ECEA96 /* ARGame.swift in Sources */,
 				C9867B952A33A19C00ECEA96 /* ViewController.swift in Sources */,
 				C9867B932A33A19C00ECEA96 /* AppDelegate.swift in Sources */,
 				C9867B972A33A19C00ECEA96 /* Experience.rcproject in Sources */,
+				C9867BC42A375B8E00ECEA96 /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +461,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +492,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
